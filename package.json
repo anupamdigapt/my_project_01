@@ -1,0 +1,28 @@
+{
+  "name": "my_project_01",
+  "version": "1.0.0",
+  "description": "project excel sheet read",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anupamdigapt/my_project_01.git"
+  },
+  "author": "Anupam Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anupamdigapt/my_project_01/issues"
+  },
+  "homepage": "https://github.com/anupamdigapt/my_project_01#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.9.2",
+    "nodemon": "^3.1.0",
+    "sequelize": "^6.37.1",
+    "xlsx": "^0.18.5"
+  }
+}
